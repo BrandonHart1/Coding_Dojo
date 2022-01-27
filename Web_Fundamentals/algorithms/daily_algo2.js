@@ -1,12 +1,12 @@
-var countPositives = 0;
-var numbers = [3, 4, -2, 7, 16, -8, 0];
-
-// your code here!
-
-for (var i = 0; i < numbers.length; i++) {
-    if (numbers[i] > 0) {
-        countPositives = countPositives + 1;
-    }
+var x = 0;
+for(var i=1; i<5; i++) {
+    x += i;
 }
+console.log(x);
 
-console.log("there are " + countPositives + " positive values");
+
+var x = "0";
+for(var i=1; i<5; i++) {
+    x += i;
+}
+console.log(x);
