@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+.dojonary_search {
+    height: 50px;
+    background-color: lightgrey;
+    margin-bottom: 35px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.ninja_top {
+    height: 150px;
+    border: 5px solid black;
+    justify-content: center;
+}
+
+.ninja_bottom {
+    height: 150px;
+    margin-top: 25px;
+    border: 5px solid black;
+    justify-content: center;
+}
+
+.add_definition {
+    height: 120px;
+    border: 5px solid black;
+    margin-left: 15px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.add_definition {
+    width: 250px;
+}

@@ -13,7 +13,7 @@ for (var i = 100; i > 1; i--) {
 
 
 // Values in the sequence of 4, 2.5, 1, 0.5, -2, -3.5  ###################################
-for (var i = 5.5; i > -4; i -= 1.5) {
+for (var i = 4; i > -4; i -= 1.5) {
     console.log(i)
 }
 
