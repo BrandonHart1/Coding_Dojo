@@ -17,10 +17,15 @@
     display: flex;
 }
 
-.ninja_top {
+.ninja {
+    width: 400px;
     height: 150px;
     border: 5px solid black;
     justify-content: center;
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+    padding: 10px;
 }
 
 .ninja_bottom {
@@ -31,9 +36,11 @@
 }
 
 .add_definition {
+    width: 500px;
     height: 120px;
     border: 5px solid black;
     margin-left: 15px;
+    /* align-items: flex; */
 }
 
 .main {
@@ -42,6 +49,23 @@
     align-items:flex-start;
 }
 
-.add_definition {
-    width: 250px;
+.button1 {
+    background-color: blue;
+    width: 50px;
+    height: 30px;
+    box-shadow: 2px 5px black;
+    color: white;
+}
+
+.button2 {
+    width: 80px;
+    height: 25px;
+    background-color: #ffc107;
+    margin-top: 10px;
+}
+
+.button3 {
+    height: 30px;
+    width: 100px;
+    background-color: #28a745;
 }

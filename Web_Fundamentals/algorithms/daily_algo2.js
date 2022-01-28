@@ -32,7 +32,6 @@ console.log(result2);
 
 
 // ####################################################################
-
 var x = 5;  
 // var x is a global variable
 
@@ -63,5 +62,23 @@ console.log(x);
 var result = addToX(-10);
 console.log(result);
 console.log(x);
+
+// ####################################################################
+// Reverse the array########################################
+// ["a", "b", "c", "d", "e"];
+var array = ["a", "b", "c", "d", "e"]
+
+var i = 0;
+var x = ((array.length)/2)-1
+
+function reverse(array) {
+    while (i<=x) {
+        var temp = array[i];
+        array[i]=array[(array.length)-i-1];
+        array[(array.length) -i -1]=temp; i++;
+    }
+    console.log(array)
+}
+reverse(array);
 
 // ####################################################################
