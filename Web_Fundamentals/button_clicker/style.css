@@ -4,9 +4,9 @@
 }
 
 .container {
-    width: 70%;
+    width: 50%;
     margin: 0px auto;
-    justify-content: center;
+    
 }
 
 .dojonary_search {
@@ -36,7 +36,7 @@
 }
 
 .add_definition {
-    width: 500px;
+    width: 300px;
     height: 120px;
     border: 5px solid black;
     margin-left: 15px;
