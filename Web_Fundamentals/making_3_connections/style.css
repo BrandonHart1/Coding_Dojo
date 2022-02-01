@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ###################### Nav Header ########################## */
+
+.nav_links {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+/* ###################### All Boxes ########################### */
+
+.container {
+    background-color: lightgrey;
+    width: 70%;
+    min-height: 200px;
+    margin: 0 auto;
+}
+
+/* ########################################################## */
+
+.hero {
+    background-color: lightsteelblue;
+    min-height: 50px;
+}
+
+/* ########################################################## */
+
+.hero_left {
+    
+}
+
+/* #################### Left Side Top Box ####################### */
+
+.hero_left_top {
+    background-color: olive;
+    min-height: 40px;
+}
+
+.left_top_bar {
+    background-color: violet;
+    min-height: 5px;
+}
+
+.left_top_main {
+    background-color: yellowgreen;
+    min-height: 10px;
+}
+
+.hero_left_bottom {
+    background-color: lightcoral;
+    min-height: 50px;
+}
+
+/* ####################### Left Side Bottom Box ################## */
+
+.edu_bar {
+    background-color: black;
+    min-height: 10px;
+    color: gold;
+    padding: 5px;
+}
+
+.cd_description {
+    background-color: cadetblue;
+    min-height: 50px;
+    padding: 10px;
+}
+
+/* ########################################################## */
+
+.hero_right {
+    background-color: coral;
+    min-height: 60px;
+}
+
+/* ################### Right Side Top Box #################### */
+
+.request_top {
+    background-color: black;
+    /* min-height: 10px; */
+    display: flex;
+    color: white;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    padding: 5px;
+}
+
+.number {
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.request_main {
+    background-color: lightseagreen;
+    min-height: 50px;
+}
+
+.request_bottom {
+    background-color: wheat;
+    min-height: 50px;
+}
+
+/* #################### Right Side Bottom ####################### */
+
+.hero_right_bottom {
+    background-color: sienna;
+    min-height: 50px;
+}
+
+.your_conn_bar {
+    background-color: tan;
+    min-height: 5px;
+}
+
+.your_conn_main {
+    background-color: tomato;
+    min-height: 50px;
+}
+
+/* ######################## Images ########################## */
+
+.seattle_flex img {
+    border-radius: 50%;
+    height: 50px;
+}
+
+.gear_flex img {
+    height: 20px;
+}
+
+
+
+/* ########################################################## */
+/* ########################################################## */
+/* ########################################################## */
+/* ########################################################## */
+/* ########################################################## */
+/* ########################################################## */
+/* ########################################################## */
+/* ########################################################## */
