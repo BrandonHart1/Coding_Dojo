@@ -20,7 +20,6 @@
 /* ###################### All Boxes ########################### */
 
 .container {
-    background-color: lightgrey;
     width: 70%;
     min-height: 200px;
     margin: 0 auto;
@@ -29,8 +28,9 @@
 /* ########################################################## */
 
 .hero {
-    background-color: lightsteelblue;
     min-height: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 /* ########################################################## */
@@ -42,23 +42,25 @@
 /* #################### Left Side Top Box ####################### */
 
 .hero_left_top {
-    background-color: olive;
-    min-height: 40px;
+    min-height: 80px;
 }
 
 .left_top_bar {
-    background-color: violet;
-    min-height: 5px;
+    min-height: 20px;
+    background-color: black;
+    color: yellowgre;
 }
 
 .left_top_main {
     background-color: yellowgreen;
     min-height: 10px;
+    margin-top: 10px;
 }
 
 .hero_left_bottom {
-    background-color: lightcoral;
+    background-color: lightskyblue;
     min-height: 50px;
+    margin-top: 20px;
 }
 
 /* ####################### Left Side Bottom Box ################## */
@@ -66,12 +68,11 @@
 .edu_bar {
     background-color: black;
     min-height: 10px;
-    color: gold;
+    color: lightskyblue;
     padding: 5px;
 }
 
 .cd_description {
-    background-color: cadetblue;
     min-height: 50px;
     padding: 10px;
 }
@@ -79,8 +80,12 @@
 /* ########################################################## */
 
 .hero_right {
-    background-color: coral;
     min-height: 60px;
+    margin: 20px 20px;
+}
+
+.hero_right_top {
+    margin-bottom: 20px;
 }
 
 /* ################### Right Side Top Box #################### */
@@ -103,14 +108,18 @@
 }
 
 .request_main {
-    background-color: lightseagreen;
     min-height: 50px;
+    margin-bottom: 20px;
 }
 
 .request_bottom {
     background-color: wheat;
     min-height: 50px;
+    display: flex;
 }
+
+
+
 
 /* #################### Right Side Bottom ####################### */
 
@@ -121,15 +130,27 @@
 
 .your_conn_bar {
     background-color: tan;
-    min-height: 5px;
+    min-height: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .your_conn_main {
     background-color: tomato;
-    min-height: 50px;
+    min-height: 20px;
 }
 
-/* ######################## Images ########################## */
+.flex {
+    display: flex;
+}
+
+
+/* .request_main {
+    display: flex;
+} */
+
+
+/* ######################## Images and Icons ####################### */
 
 .seattle_flex img {
     border-radius: 50%;
@@ -138,6 +159,41 @@
 
 .gear_flex img {
     height: 20px;
+}
+
+.your_conn_main img{
+    height: 40px;
+    padding: 5px;
+}
+
+.todd img {
+    height: 50px;
+}
+
+.phil img {
+    height: 50px;
+}
+
+.check_x img {
+    height: 40px;
+    padding: 5px;
+}
+
+
+
+li {
+    margin: 10px;
+}
+
+.conn_bar {
+    background-color: lightgrey;
+    border-radius: 50%;
+}
+
+.btn {
+    color: lightskyblue;
+    background-color: black;
+    height: 30px;
 }
 
 

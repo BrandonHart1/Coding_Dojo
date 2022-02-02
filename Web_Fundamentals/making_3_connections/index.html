@@ -9,21 +9,26 @@
 </head>
 <body>
     <div class="nav">
+        <!-- Top - Nav Bar ######################################## -->
         <ul class="nav_links">
             <h1 class="nav_title">Profile</h1>
-            <li><a href="#">Home</a></li>
-            <li><a href="#" class="active">My Profile</a></li>
-            <li><a href="#">Find Connections</a></li>
-            <li><button class="btn">Sign Out</button></li>
+            <div class="flex">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
+            </div>
         </ul>
     </div>
     <div class="container">
         <div class="hero">
             <div class="hero_left">
+                <!-- Left Side - Top Box ########################## -->
                 <div class="hero_left_top">
-                    <div class="left_top_bar"></div>
                     <div class="left_top_main">
+                        <div class="left_top_bar">
                         <h1>Jane Doe</h1>
+                        </div>
                         <div class="seattle_flex">
                             <img src="image/images/jane-m.jpg" alt="Jane Photo">
                             <p>Seattle</p>
@@ -36,6 +41,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Left Side - Bottom Box ########################## -->
                 <div class="hero_left_bottom">
                     <div class="edu_bar">
                         <h3>Education</h3>
@@ -48,42 +54,63 @@
                 </div>
             </div>
             <div class="hero_right">
+                <!-- Right Side - Top Box ############################## -->
                 <div class="hero_right_top">
                     <div class="request_top">
                         <p class="number">2</p>
                         <p>Connection Requests</p>
                     </div>
                     <div class="request_main todd_phil">
-                        <div class="todd">
-                            <img src="image/images/todd-s.jpg" alt="Todd Photo">
-                            <p>Todd E</p>
+                        <div class="toddandphil flex">
+                            <div class="todd flex">
+                                <img src="image/images/todd-s.jpg" alt="Todd Photo">
+                                <p>Todd E</p>
+                            </div>
+                            <div class="check_x">
+                                <img src="image/images/accept-circle.png" alt="">
+                                <img src="image/images/close-circle.png" alt="">
+                            </div>
                         </div>
-                        <div class="check_x">
-                            <img src="image/images/accept-circle.png" alt="">
-                            <img src="image/images/close-circle.png" alt="">
-                        </div>
-                        <div class="phil">
-                            <img src="image/images/phil-s.jpg" alt="">
-                            <p>Phil K</p>
-                        </div>
-                        <div class="check_x">
-                            <img src="image/images/accept-circle.png" alt="">
-                            <img src="image/images/close-circle.png" alt="">
+                        <div class="toddandphil flex">
+                            <div class="phil flex">
+                                <img src="image/images/phil-s.jpg" alt="">
+                                <p>Phil K</p>
+                            </div>
+                            <div class="check_x flex">
+                                <img src="image/images/accept-circle.png" alt="">
+                                <img src="image/images/close-circle.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="request_bottom"></div>
+                <!-- Right Side - Bottom Box ############################## -->
                 <div class="hero_right_bottom">
-                    <div class="your_conn_bar"></div>
-                    <div class="your_conn_main"></div>
+                    <div class="your_conn_bar">
+                        <p class="conn_bar">418</p>
+                        <p>Your Connestions</p>
+                    </div>
+                    <div class="your_conn_main">
+                        <div class="adrien flex">
+                            <img src="image/images/adrien-s.jpg" alt="Adrien Image">
+                            <p>Adrien D</p>
+                        </div>
+                        <div class="anne flex">
+                            <img src="image/images/anne-s.jpg" alt="Anne Image">
+                            <p>Anne J</p>
+                        </div>
+                        <div class="alayne flex">
+                            <img src="image/images/alayne-s.jpg" alt="Alayne Image">
+                            <p>Alayne T</p>
+                        </div>
+                        <div class="arry flex">
+                            <img src="image/images/arry-s.jpg" alt="Arry Image">
+                            <p>Arry Y</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-
-
-
 
     <script src="script.js"></script>
 </body>

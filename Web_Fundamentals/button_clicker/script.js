@@ -1,12 +1,12 @@
-function displayLogout(button) {
-    button.innerText =
+function displayLogout(element) {
+    element.innerText =
     "Logout";
 }
 
-function displayLikes(button) {
+function displayLikes() {
     alert("Ninja was liked");
 }
 
-function hideDefinition(button) {
-    button.style.display = "none";
+function hideDefinition(element) {
+    element.style.display = "none";
 }
