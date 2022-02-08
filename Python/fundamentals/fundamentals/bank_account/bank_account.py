@@ -3,11 +3,12 @@ class BankAccount:
         self.int_rate = int_rate
         self.balance = balance
 
+# deposit amount and new balance.
     def deposit(self, amount):
         self.balance += amount
         print(f"Total after deposit = {self.balance}")
         return self
-
+# display the withdrawel amount and new balance
     def withdraw(self, amount):
         if amount <= 0 or self.balance - amount <= 0:
             print("Insufficient funds")
@@ -16,11 +17,11 @@ class BankAccount:
         print(f"Total after withdrawel = {self.balance}")
         return self
 
-    
+# display the account balance
     def display_account_info(self):
         print("Balance " + self.balance)
 
-
+# interest rate added to balance
     def yield_interest(self):
         if self.balance > 0:
             self.balance = self.balance + (self.balance * self.int_rate)
